@@ -1,0 +1,122 @@
+
+#header{
+	background: url(../../static/summer.jpg);
+	height: 400px;
+	background-size: cover;
+	}
+	
+#header .menu-list.list-inline {
+	margin-left: 0;
+}
+#header .menu-item {
+	display: inline-block;
+	text-align: center;
+	width: 120px;
+
+}	
+#header.menu-item a{
+		color: white;
+		text-align: center;		
+		display: inline-block;
+		padding: 15px 60px 15px 0;
+		margin-right: 90px;
+		text-decoration: none;	
+	}
+.menu-item a:hover {
+	 color: blue;	
+}
+.last{
+padding: 15px 0 15px 0;
+}
+
+.headline{
+		color: #f16b0b;
+		font-size: 50px;
+		text-align: center;
+		font-family: 'Exo 2', sans-serif;
+		
+}
+#colorplay {
+		color: #0698a5;
+		font-size: 50px;
+		text-align: center;
+		font-family: 'Exo 2', sans-serif;
+		animation-name: colorplay;
+		animation-duration: 4s;
+
+}
+
+.heading{
+	text-align: center;
+	padding: 75px 60px 15px 0;
+	font-family: 'Slabo 27px', serif;
+	font-size: 40px;
+	color: #9e1fa5;
+}
+
+.col-md-4{
+	background-color:#f16b0b;
+	text-align: center;
+	background-size: cover;
+	position: relative;	
+	padding: 75px 160px 15px 175px;
+}
+
+.col-md-12{
+	text-align: center;
+	background-size: cover;
+	position: relative;	
+	padding: 0 160px 15px 175px;
+	
+}
+.customColor {
+	color: white !important;
+	background: red;
+}
+
+.lists1{
+	text-align: left;	
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	color: #1a26d8;	
+	padding: 5px 5px 5px 20px;
+	margin-top: 20px;
+}
+
+.lists2 {
+	margin-top: 20px;
+	text-align: right;	
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	color: #1a26d8;	
+	padding: 5px 5px 5px 20px;
+	}	
+#footer .menu-item {
+	color: white;
+		text-align: center;		
+		display: inline-block;
+		padding: 15px 60px 15px 0;
+		margin-right: 90px;
+		text-decoration: none;	
+}
+#footer .menu-item a:hover {
+	 color: blue;	
+}
+.last{
+padding: 15px 0 15px 0;
+}
+#footer.col-md-4 {
+	
+	
+}
+#footer .line {
+	background-color: #e8c737;
+	display: inline-block;
+	text-align: center;
+	width: 40px;
+	height: 3px;	 
+}
+
+
+
+	
