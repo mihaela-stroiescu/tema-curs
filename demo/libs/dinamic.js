@@ -32,14 +32,28 @@
 			var parent = $('#posts div').parent()
 				console.log("TOTI PARINTII",parent);
 				
-			$('.lists2').css('background-color','#e86b1e'); 
+			$('.lists2').css('background-color','#e86b1e');
+
+			
 		
 		},2000)
 	
+	setTimeout(function(){
+
+		customcss('#colorplay','font-size','80px');
+		customcss('.lists1','border-size','2px');
+		customcss('.lists1','border-style','solid');
+		customcss('.lists1','border-color','green');
 		
+		customcss('.lists2','border-size','3px');
+		customcss('.lists2','border-style','dotted');
+		customcss('.lists2','border-color','black');
+	},1000)
 	
 	
 	})
+	
+	
 	
 	
 function loadpost() {
@@ -107,7 +121,13 @@ $("#posts div").eq(2).hide();
  $("#posts div").eq(2).show();
  }
   
-	
+function changeLocation() {
+	return window.location.href = 'https://google.com';
+}
+
+	function customcss(selector,atribut,val) {
+			$(selector).css(atribut,val)
+		}	
 	
 	
  

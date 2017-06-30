@@ -1,13 +1,16 @@
-#apartments.space{
+#apartments .space{
 	text-decoration: color: yellow;
 	color: blue;	
-	padding: 100px 100px 100px; 100px; 
+	padding: 75px 0 100px; 10px;	
+	
 }
-
-#apartments.border_img{
-	border-image: src="/../../static/space-indoor.jpg" 20% round;
-	border-color: red;	
-	border-style: solid;
+#apartments .form {
+	float: right;
+	border: 2px solid #a1a1a1;
+    padding: 10px 15px; 
+    background: #dddddd;
+    width: 250px;
+    border-radius: 25px;
 }
 
 
